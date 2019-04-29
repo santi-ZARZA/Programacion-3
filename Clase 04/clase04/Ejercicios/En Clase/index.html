@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>En Clase</title>
+</head>
+<body>
+  <font FACE="verdana">
+      <form id="frmEmpleado" action="administra.php" method="POST" enctype="multipart/form-data">
+
+        <table align="center" border="2">
+            <tr>
+              <td colspan="1">
+                  Nombre:
+                  <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1">
+                  Apellido:
+                  <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1">
+                  DNI:
+                  <input type="number"  id="dni" name="dni" placeholder="Ingrese su dni">
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1">
+                  Sexo:
+                  <select name="cmbsexo" id="cmbsexo" size="2">
+                    <option value="m">Masculino</option>
+                    <option value="f">Femenino</option>
+                  </select>
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1">
+                  Legajo:
+                  <input type="number" id="legajo" name="legajo" placeholder="Ingrese su legajo">
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  Sueldo:
+                  <input type="number" id="sueldo" name="sueldo" placeholder="Ingrese su sueldo">
+                  <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Foto:
+                <input type="file" name="foto" id="foto" placeholder="Ingrese foto" >
+              </td>
+            </tr>
+          
+          <tr>
+            <td colspan="1">
+              <input type="submit" value="Enviar">
+            </td>
+          </tr>
+        </table>
+      </form>
+  </font>
+</body>
+</html>
